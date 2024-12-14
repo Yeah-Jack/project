@@ -9,7 +9,8 @@
 	<link rel="icon" href="/assets/Favicon.png" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
 	<title>Formular</title>
 </head>
 
@@ -49,39 +50,39 @@
 		?>
 		<br>
 		<form method=" get">
-	<label>Text</label>
-	<input type="text" name="textfeld">
-	<br>
-	<label>Number</label>
-	<input type="number" name="nummer">
-	<br>
-	<label>Date Time</label>
-	<input type="datetime-local" name="datumhrzeit">
-	<br>
-	<label>Dropdown</label>
-	<select name="dropdown">
-		<option value="option1">Option 1</option>
-		<option value="option2">Option 2</option>
-	</select>
-	<br>
-	<label>Checkbox</label>
-	<input type="checkbox" name="check">
-	<br>
-	<label>Textarea</label>
-	<textarea name="textarea"></textarea>
-	<br>
-	<label>E-Mail</label>
-	<input type="email" name="email">
-	<br>
-	<label>URL</label>
-	<input type="url" name="url">
-	<br>
-	<label>Telephonenumber</label>
-	<input type="tel" name="telnummer">
-	<br>
-	<button type="submit">Anmelden!</button>
-	</form>
+			<label>Text</label>
+			<input type="text" name="textfeld">
+			<br>
+			<label>Number</label>
+			<input type="number" name="nummer">
+			<br>
+			<label>Date Time</label>
+			<input type="datetime-local" name="datumhrzeit">
+			<br>
+			<label>Dropdown</label>
+			<select name="dropdown">
+				<option value="option1">Option 1</option>
+				<option value="option2">Option 2</option>
+			</select>
+			<br>
+			<label>Checkbox</label>
+			<input type="checkbox" name="check">
+			<br>
+			<label>Textarea</label>
+			<textarea name="textarea"></textarea>
+			<br>
+			<label>E-Mail</label>
+			<input type="email" name="email">
+			<br>
+			<label>URL</label>
+			<input type="url" name="url">
+			<br>
+			<label>Telephonenumber</label>
+			<input type="tel" name="telnummer">
+			<br>
+			<button type="submit">Anmelden!</button>
+		</form>
 	</main>
-	</body>
+</body>
 
 </html>
